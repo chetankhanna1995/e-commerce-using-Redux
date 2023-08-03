@@ -7,7 +7,7 @@ const Cart = () => {
   const dispatch=useDispatch()
 
   const handleclick=(productid)=>{
-  dispatch(remove(productid) )       
+  dispatch(remove(productid) ) 
   }
   return (
     <div className='container'>
